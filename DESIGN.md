@@ -24,7 +24,6 @@ sunset shots are still. The launch (19 November 2026) makes
   and below the 16:9 picture. Original audio kept.
 - 22–30 s: full-frame dark end card, no footage behind it: "Make clips
   like this / with AI and earn money / on make.fun" plus the bounty URL.
-
 ## How it was made (in this session)
 
 1. Verified the source: Rockstar's official Trailer 2 (YouTube
@@ -36,11 +35,11 @@ sunset shots are still. The launch (19 November 2026) makes
    across 18–50 s), viewed them, and picked the 33–55 s stretch.
 3. Re-rendered the clip in-session with ffmpeg (blur-fill vertical,
    hook text, end card): `clip-gta6-vice-city.mp4`, 1080x1920, 30.0 s,
-   11,201,023 bytes — byte-identical to the first session's render
-   (same sha256), so the filter reproduces exactly.
+   11,201,023 bytes — byte-identical to the first session's render,
+   so the filter reproduces exactly.
 4. Viewed frames from the render: hook text clean, end card fully
    readable — all four pitch lines inside the frame (the earlier 88 pt
-   pass had cut a line off; the 68 pt setting holds).
+   pass had cut a line off; 68 pt holds).
 5. Wrote this repository fresh in the same session: `main.ts`,
    `VIDEO.json`, `README.md`, this file.
 
