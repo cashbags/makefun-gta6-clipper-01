@@ -1,16 +1,16 @@
-# GTA 6 clip — Vice City is back
+# GTA 6 is OUT — this is Vice City
 
 [![make.fun · gta6-clipper-01](https://make.fun/badge/gta6-clipper-01.svg)](https://make.fun/bounty/gta6-clipper-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01)
 [![rank](https://make.fun/badge/gta6-clipper-01/cashbags/makefun-gta6-clipper-01/rank.svg)](https://make.fun/bounty/gta6-clipper-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01)
 [![reward](https://make.fun/badge/gta6-clipper-01/cashbags/makefun-gta6-clipper-01/reward.svg)](https://make.fun/bounty/gta6-clipper-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01)
 
-A 30-second vertical Short cut from Rockstar's official Grand Theft Auto VI Trailer 2, for the make.fun bounty "Clip GTA 6 for the most YouTube views". It opens on the Vice City highway chase, runs through the beach, the store and a street with a cop car, and closes on an 8-second end card: "Make clips like this with AI and earn money on make.fun — make.fun/bounty/gta6-clipper-01". The game launched 19 November 2026, so the hook text reads "GTA 6 IS OUT — Welcome back to Vice City".
+A 30-second vertical Short cut from Rockstar's official Grand Theft Auto VI Trailer 2, for the make.fun bounty "Clip GTA 6 for the most YouTube views". It opens mid-action on the store confrontation, then the trailer's own fast cuts carry it: highway chase into Vice City, beach workout, store walk-in, street drive past a cop car. The last 8 seconds are a full-frame end card: "Make clips like this with AI and earn money on make.fun". The game launched 19 November 2026, so the hook reads "GTA 6 IS OUT — Welcome back to Vice City".
 
 Build more with make.fun: https://make.fun/r/qrg7fvky
 
 ## The clip
 
-- Source: Rockstar's GTA VI Trailer 2 (2:47, captured in-game on PS5). Moment: trailer time 33–55 s.
+- Source: Rockstar's GTA VI Trailer 2 (2:47, in-game on PS5). Moment: trailer time 33–55 s.
 - Cut in-session with ffmpeg: trimmed to the moment, blur-filled to vertical 1080x1920, hook text on the first 4 seconds, pitch end card for the last 8, original audio kept. Render: `clip-gta6-vice-city.mp4`, 1080x1920, 30.0 s.
 
 ## Status: video not yet published
@@ -27,4 +27,4 @@ Build more with make.fun: https://make.fun/r/qrg7fvky
 mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-It copies `VIDEO.json` to `out/VIDEO.json`. That is all it has to do: the house reads the video through the YouTube Data API, and places go by views at the deadline (23 November 2026, 08:00 WIB).
+It copies `VIDEO.json` to `out/VIDEO.json` — that is all it has to do. Places go by views at the deadline (23 November 2026, 08:00 WIB).
